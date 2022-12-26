@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+        function myFunction(){
+            var a=document.getElementById("delete").parentNode.remove();
+        }
+    </script>
+    <style>
+        #div1{
+            background-image: url("https://studybreaks.com/wp-content/uploads/2017/11/write.jpg");
+            width:100%;
+            height: 22cm;
+            background-size: cover;
+            background-repeat:no-repeat;
+            margin-top: -20px;
+            background-attachment: fixed;
+        }
+        #todo{
+            flex-wrap: wrap;
+        }
+        #task{
+            width:25%;
+            height: 420px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSt5G9eFbqQSZ_JnuYFfWv9MosZvMZe4jMaXRmP_yJGMS7VBDFvhbTj4LmU5d3SOjZZI&usqp=CAU");
+            /*background-image: url("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");*/
+            margin: 4%; 
+            margin-left:37%;
+            background-size: cover;
+            background-repeat:no-repeat;
+            border-radius: 15% 15% 15% 15%;
+            box-shadow: 6px 6px 6px 1px;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        form{
+            margin-left: 2%;
+            font-size: large;
+        }
+        .del{
+            width:100%;
+            height: 7cm;
+        }
+        #notes{
+            width:80%;
+            margin-left: 10%;
+            border-radius: 50px;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .delt{
+            margin-left:15%;
+            color:white;
+            background-color:rgb(112, 23, 23);
+            height:50px;
+            width:100px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius:20px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
+        }
+        #note{
+            align-items: center;
+            width:400px;
+            border-radius: 50px;
+            font-size: larger;
+            font-weight: bold;
+            padding:10px;
+            margin-left:27%;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .delt1{
+            color:white;
+            background-color:rgb(19, 16, 39);
+            height:50px;
+            width:100px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius:20px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+               
+        }
+        .delt3{
+                color:white;
+                background-color:rgb(5, 41, 32);
+                height:50px;
+                width:100px;
+                font-size: 20px;
+                font-weight: bold;
+                border-radius:20px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+           }
+           ul{
+                text-decoration: none;
+                text-transform: capitalize;
+           }
+    </style>
+</head>
+<body class=" bg-black">
+    <div id="div1">
+        <div id="form-add" class="container pt-5">
+            <h1>ToDo List </h1>
+            <form method="post" action="/add" class="form d-flex mt-3 mb-3 mr-3">
+                <input type="text" name="notes" id="note" class="form-control " placeholder="Add a Task" required>
+               
+                <input type="submit" name="add" value="Add" class=" delt3" >
+            </form>
+        </div>
+        <div>
+            <h1><%=day%></h1>
+        </div>
+        <div class="d-flex" id="todo">
+           <div id="task">
+                <h1 >Task</h1>
+                <form method="post" action="/delete" class="form mt-3 mb-3 mr-3">
+                    <div class="del">
+                    <input type="text" name="notes" id="notes" class="form-control " placeholder="Update Task" >
+                    <ul>
+                        <% name.forEach(function(i){
+                            %>
+                            <li class="list"><input type="radio" name="checkbox" value="<%=i.id%>" class="mr-1"><label for="<%=i.id%>"><%=i.task%></label></li>
+                            <%
+                        }) %>
+                        
+                    </ul>
+                    </div>
+                    <button class="delt">Update</button>
+                    <input type="submit" value="Delete" class=" delt1 " >
+                </form>
+           </div>
+           
+            
+        </div>
+    </div>
+
+    
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
